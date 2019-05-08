@@ -19,6 +19,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  flutter_sparkline: ^0.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -51,6 +53,17 @@ flutter:
    - assets/images/youtube_action2.png
    - assets/images/youtube_action3.png
    - assets/images/profile_pic.png
+   - assets/images/bitcoin.png
+   - assets/images/crypto/binance_icon.png
+   - assets/images/crypto/bitcoin_cash_icon.png
+   - assets/images/crypto/bitcoin_icon.png
+   - assets/images/crypto/cardano_icon.png
+   - assets/images/crypto/eos_icon.png
+   - assets/images/crypto/ethereum_icon.png
+   - assets/images/crypto/litecoin_icon.png
+   - assets/images/crypto/stellar_icon.png
+   - assets/images/crypto/tether_icon.png
+   - assets/images/crypto/xrp_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
