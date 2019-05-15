@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
-// import 'package:appbar/pages/basic_appbar/facebook_appbar.dart';
-// import 'package:appbar/pages/basic_appbar/youtube_appbar.dart';
-// import 'package:appbar/pages/basic_appbar/basic_appbar.dart';
-import 'package:appbar/pages/crypto/sliver_appbar.dart';
-import 'package:appbar/mocks/crypto_api.dart';
+import 'package:flutter_web/material.dart';
+// import 'package:appbar_for_web/pages/basic_appbar/facebook_appbar.dart';
+// import 'package:appbar_for_web/pages/basic_appbar/youtube_appbar.dart';
+// import 'package:appbar_for_web/pages/basic_appbar/basic_appbar.dart';
+import 'package:appbar_for_web/pages/crypto/sliver_appbar.dart';
+import 'package:appbar_for_web/mocks/crypto_api.dart';
 
 void main() => runApp(MyApp());
 

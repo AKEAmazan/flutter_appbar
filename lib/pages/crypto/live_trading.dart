@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_sparkline/flutter_sparkline.dart';
-import 'package:appbar/models/crypto.dart';
+import 'package:flutter_web/material.dart';
+//import 'package:flutter_sparkline/flutter_sparkline.dart';
+import 'package:appbar_for_web/models/crypto.dart';
 
 
 class LiveTrading extends StatelessWidget {
@@ -46,10 +46,10 @@ class LiveTrading extends StatelessWidget {
                     Container(
                       height: 30.0,
                       width: 50.0,
-                      child: Sparkline(
-                        data: liveCrypto[index].graphData,
-                        lineColor: Colors.pinkAccent,
-                      ),
+                      // child: Sparkline(
+                      //   data: liveCrypto[index].graphData,
+                      //   lineColor: Colors.pinkAccent,
+                      // ),
                     )
                   ]))
         ],

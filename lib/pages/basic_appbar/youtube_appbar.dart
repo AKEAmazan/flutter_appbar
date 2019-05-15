@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 class YoutubeAppbar extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class YoutubeAppbar extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Image.asset(
-                    'assets/images/youtube_icon.png',
+                    'images/youtube_icon.png',
                     fit: BoxFit.cover,
                     height: 45.0,
                   ),
@@ -20,7 +20,7 @@ class YoutubeAppbar extends StatelessWidget {
               actions: <Widget>[
                 IconButton(
                   padding: EdgeInsets.all(10.0),
-                  icon: Image.asset('assets/images/youtube_action1.png'),
+                  icon: Image.asset('images/youtube_action1.png'),
                   onPressed: () {
                     // Implement navigation to shopping cart page here...
                     print('Click Action2');
@@ -28,7 +28,7 @@ class YoutubeAppbar extends StatelessWidget {
                 ),
                 IconButton(
                   padding: EdgeInsets.all(10.0),
-                  icon: Image.asset('assets/images/youtube_action2.png'),
+                  icon: Image.asset('images/youtube_action2.png'),
                   onPressed: () {
                     // Implement navigation to shopping cart page here...
                     print('Click Action2');
@@ -36,7 +36,7 @@ class YoutubeAppbar extends StatelessWidget {
                 ),
                 IconButton(
                   padding: EdgeInsets.all(10.0),
-                  icon: Image.asset('assets/images/youtube_action3.png'),
+                  icon: Image.asset('images/youtube_action3.png'),
                   onPressed: () {
                     // Implement navigation to shopping cart page here...
                     print('Click Action3');
@@ -49,7 +49,7 @@ class YoutubeAppbar extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(30),
                     child: Image.asset(
-                      'assets/images/profile_pic.png',),
+                      'images/profile_pic.png',),
                   )
 
                 )

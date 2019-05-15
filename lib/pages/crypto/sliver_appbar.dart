@@ -1,7 +1,7 @@
-import 'package:appbar/models/crypto.dart';
-import 'package:flutter/material.dart';
-import 'package:appbar/pages/crypto/profile_card.dart';
-import 'package:appbar/pages/crypto/live_trading.dart';
+import 'package:appbar_for_web/models/crypto.dart';
+import 'package:flutter_web/material.dart';
+import 'package:appbar_for_web/pages/crypto/profile_card.dart';
+import 'package:appbar_for_web/pages/crypto/live_trading.dart';
 
 class SliverAppbar extends StatelessWidget {
   SliverAppbar(this.crypto);
@@ -38,7 +38,7 @@ class SliverAppbar extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
-                          'assets/images/profile_pic.png',
+                          'images/profile_pic.png',
                           width: 40,
                         ),
                       )),

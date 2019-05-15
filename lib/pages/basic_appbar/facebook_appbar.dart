@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 class FacebookAppbar extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class FacebookAppbar extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Image.asset(
-                    'assets/images/facebook_icon.png',
+                    'images/facebook_icon.png',
                     fit: BoxFit.cover,
                     height: 35.0,
                   ),
@@ -20,7 +20,7 @@ class FacebookAppbar extends StatelessWidget {
               actions: <Widget>[
                 IconButton(
                   padding: EdgeInsets.all(5.0),
-                  icon: Image.asset('assets/images/facebook_search.png'),
+                  icon: Image.asset('images/facebook_search.png'),
                   onPressed: () {
                     // Implement navigation to shopping cart page here...
                     print('Click Search');
@@ -28,7 +28,7 @@ class FacebookAppbar extends StatelessWidget {
                 ),
                 IconButton(
                   padding: EdgeInsets.all(5.0),
-                  icon: Image.asset('assets/images/facebook_msg.png'),
+                  icon: Image.asset('images/facebook_msg.png'),
                   onPressed: () {
                     // Implement navigation to shopping cart page here...
                     print('Click Message');

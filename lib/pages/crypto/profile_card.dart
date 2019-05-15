@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 class ProfileCard extends StatelessWidget {
   @override
@@ -13,7 +13,7 @@ class ProfileCard extends StatelessWidget {
             //crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                'assets/images/bitcoin.png',
+                'images/bitcoin.png',
                 scale: 2,
               ),
               SizedBox(
